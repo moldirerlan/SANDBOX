@@ -1,0 +1,21 @@
+//CODEWARS JS TASKS 
+
+
+//TASK 9(Parse nice int from char problem)
+// You ask a small girl,"How old are you?" She always says, "x years old", where x is a random number between 0 and 9.
+
+// Write a program that returns the girl's age (0-9) as an integer.
+
+// Assume the test input string is always a valid string. For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number.
+
+
+//SOLUTION
+function getAge(inputString) {
+    // Get the first character of the input string and convert it to an integer
+    return parseInt(inputString.charAt(0));
+  }
+  
+  console.log(getAge("1 year old"));  // Output: 1
+  console.log(getAge("5 years old")); // Output: 5
+  console.log(getAge("9 years old")); // Output: 9
+  
