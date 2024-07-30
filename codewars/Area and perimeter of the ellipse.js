@@ -1,7 +1,7 @@
 //CODEWARS JS TASKS 
 
 
-//TASK 14(Area and perimeter of the ellipse)
+//TASK 14(Area and perimeter of the ellipse) #6 kyu
 // Based on the received dimensions, a and b, of an ellipse, calculare its area and perimeter.
 
 // Example:
